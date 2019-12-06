@@ -4,8 +4,11 @@
     <div class="control-group">
         <label class="control-label" for="settings-navbartemp-display"></label>
         <div class="controls">
+        	<label class="checkbox">
+                <input type="checkbox" data-bind="checked: settings.displayTempGPIO"> Display External temperature
+            </label>
             <label class="checkbox">
-                <input type="checkbox" data-bind="checked: settings.displayRaspiTemp"> Display internal temperature
+                <input type="checkbox" data-bind="checked: settings.displayTempSoC"> Display internal temperature
             </label>
         </div>
     </div>
